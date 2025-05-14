@@ -1,0 +1,29 @@
+/* src/components/FileStatusMonitor.css */
+.file-status-monitor {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.status-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between status items */
+}
+
+.status-item {
+    background-color: #f4f4f8;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ddd;
+}
+
+.status-label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.status-value {
+    font-size: 1.2rem;
+    color: #333;
+}

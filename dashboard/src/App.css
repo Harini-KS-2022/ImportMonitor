@@ -1,0 +1,76 @@
+/* App.css */
+
+/* Ensures the html and body take up the full height and width */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Sets display to flex, centers content vertically */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between; /* Adjust this if needed for content alignment */
+  background-color: #f4f4f4;
+}
+
+/* Styling for app container */
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+/* Ensure header uses full width and maintains app branding */
+.App-header {
+  width: 100%;
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Container for the radio buttons */
+.radio-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  background-color: #282c34;
+}
+
+/* Styling each radio button label */
+.radio-buttons label {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Styling for the radio input */
+.radio-buttons input[type="radio"] {
+  margin-right: 8px;
+}
+
+/* Main section takes full available space, with some padding */
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  max-width: 1200px; /* Adjust based on design */
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
